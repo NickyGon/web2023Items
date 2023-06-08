@@ -32,7 +32,7 @@ public class CRUDItem {
     }
 
     @Test
-    public void verifyCreateProject() throws InterruptedException {
+    public void verifyCreateItem() throws InterruptedException {
         // click login button
         chrome.findElement(By.xpath("//img[@src='/Images/design/pagelogin.png']")).click();
         // type email in email txtbox
